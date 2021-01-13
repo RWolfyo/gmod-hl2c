@@ -1,0 +1,7 @@
+//DeriveGamemode( "core" )
+include("shared.lua")
+include("player_class/player_coop.lua")
+include("player_class/player_combine.lua")
+include("modules/von.lua")
+include("modules/netstream.lua")
+include("client/cl_init.lua")

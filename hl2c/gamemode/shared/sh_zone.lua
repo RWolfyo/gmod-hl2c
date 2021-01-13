@@ -1,0 +1,1 @@
+ZONE = ZONE or {} -- global table

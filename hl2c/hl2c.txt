@@ -1,0 +1,137 @@
+"hl2c"
+{
+	"base"		"base"
+	"title"		"Half-Life 2 Campaign"
+	"menusystem"	"1"
+	"maps"	"^d1_|^d2_|^d3_|^ep1_|^ep2_|^coop_|^js_coop|^sg_"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"sv_password"
+			"text"		"Server Password"
+			"help"		"Set the server password for your server."
+			"type"		"Text"
+			"default"	""
+		}
+
+		2
+		{
+			"name"		"hl2c_admin_physgun"
+			"text"		"ADMIN Physgun"
+			"help"		"When this is enabled, admins of the server get Physics Guns."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		3
+		{
+			"name"		"hl2c_admin_noclip"
+			"text"		"ADMIN No-Clip"
+			"help"		"When this is enabled, admins of the server are allowed to No-Clip."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		4
+		{
+			"name"		"hl2c_playermodel_restrictions"
+			"text"		"Citizen/Rebel Playermodels Only"
+			"help"		"Should we only allow Citizen/Rebel playermodels?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		5
+		{
+			"name"		"hl2c_hev_hands"
+			"text"		"HEV Arms"
+			"help"		"Should player viewmodels have HEV Arms?"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		6
+		{
+			"name"		"hl2c_allow_stunstick"
+			"text"		"Allow Stunstick"
+			"help"		"In Multiplayer, are stunsticks allowed to be picked up?"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		7
+		{
+			"name"		"hl2c_passenger_seats"
+			"text"		"Passenger Seats"
+			"help"		"In Multiplayer, should we allow passenger seats?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		8
+		{
+			"name"		"hl2c_drop_weapon_on_death"
+			"text"		"Drop Weapon on death"
+			"help"		"In Multiplayer, does the player drop his current weapon on death?"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+		9
+		{
+			"name"		"hl2c_allow_respawn"
+			"text"		"Allow Respawn"
+			"help"		"In Multiplayer, can players respawn without having to spectate?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		10
+		{
+			"name"		"hl2c_additions"
+			"text"		"Gameplay Additions(W.I.P)"
+			"help"		"In Multiplayer, should we add anything new to the gameplay?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		11
+		{
+			"name"		"hl2c_classic"
+			"text"		"Classic Mode -= 1.2.6 =-"
+			"help"		"Override the gamemode to act closely to the original HL2C 1.2.6."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		12
+		{
+			"name"		"hl2c_use_old_umsg"
+			"text"		"Use old Usermessages"
+			"help"		"Use the old networking method."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		13
+		{
+			"name"		"hl2c_shop_allowed"
+			"text"		"Enable hl2c_buy_"
+			"help"		"The shop system. Disabled by default."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		14
+		{
+			"name"		"hl2c_ammo_limits"
+			"text"		"Ammo Limiting"
+			"help"		"Ammo is limited to hl2c_ammo_***_max cvars."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+	}
+}
